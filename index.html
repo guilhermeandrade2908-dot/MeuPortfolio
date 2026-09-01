@@ -2,10 +2,16 @@
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Meu Portfólio</title>
+    <title>Guilherme Andrade | Portfólio</title>
+
+
+    <!-- ==========================================
+         BOOTSTRAP
+    =========================================== -->
 
     <!-- Bootstrap CSS -->
     <link
@@ -13,71 +19,836 @@
         rel="stylesheet"
     >
 
-    <!-- CSS próprio -->
+    <!-- Bootstrap Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+
+    <!-- ==========================================
+         CSS PRÓPRIO
+    =========================================== -->
+
     <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 
 <body>
 
-    <!-- ==============================
+
+    <!-- ==========================================
          NAVBAR
-    =============================== -->
-    <header>
-        <nav>
-            <!-- Navegação -->
-        </nav>
-    </header>
+    =========================================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+        <div class="container">
+
+            <!-- Logo / Nome -->
+            <a class="navbar-brand fw-bold" href="#inicio">
+                Guilherme Andrade
+            </a>
 
 
-    <!-- ==============================
-         CONTEÚDO PRINCIPAL
-    =============================== -->
-    <main>
+            <!-- Botão Mobile -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Abrir menu"
+            >
 
-        <!-- HERO -->
-        <section id="inicio">
-            <!-- Apresentação principal -->
-        </section>
+                <span class="navbar-toggler-icon"></span>
 
-
-        <!-- SOBRE -->
-        <section id="sobre">
-            <!-- Apresentação sobre mim -->
-        </section>
-
-
-        <!-- HABILIDADES -->
-        <section id="habilidades">
-            <!-- Tecnologias e conhecimentos -->
-        </section>
+            </button>
 
 
-        <!-- PROJETOS -->
-        <section id="projetos">
-            <!-- Apresentação dos projetos -->
-        </section>
+            <!-- Links da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">
+                            Início
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">
+                            Sobre Mim
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos">
+                            Projetos
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">
+                            Habilidades
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia">
+                            Experiência
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">
+                            Contato
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
 
 
-        <!-- CONTATO -->
-        <section id="contato">
-            <!-- Informações de contato -->
-        </section>
 
-    </main>
+    <!-- ==========================================
+         APRESENTAÇÃO INICIAL
+    =========================================== -->
+
+    <section id="inicio" class="hero-section">
+
+        <div class="container">
+
+            <div class="row align-items-center min-vh-100">
 
 
-    <!-- ==============================
+                <!-- Texto -->
+                <div class="col-lg-7">
+
+                    <p class="text-uppercase fw-bold">
+                        Olá, eu sou
+                    </p>
+
+                    <h1 class="display-3 fw-bold">
+                        Guilherme Andrade
+                    </h1>
+
+                    <h2 class="h3 mb-4">
+                        Estudante de Tecnologia e Desenvolvedor
+                    </h2>
+
+                    <p class="lead mb-4">
+                        Sou estudante de Tecnologia da Informação apaixonado
+                        por programação, desenvolvimento de sistemas e pela
+                        criação de soluções através da tecnologia.
+                    </p>
+
+
+                    <!-- Botões -->
+                    <div class="d-flex gap-3">
+
+                        <a href="#projetos" class="btn btn-primary">
+                            Ver meus projetos
+                        </a>
+
+                        <a href="#contato" class="btn btn-outline-primary">
+                            Entre em contato
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Espaço para Foto -->
+                <div class="col-lg-5 text-center">
+
+                    <div class="profile-placeholder">
+
+                        <i class="bi bi-person-circle"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         SOBRE MIM
+    =========================================== -->
+
+    <section id="sobre" class="py-5">
+
+        <div class="container py-5">
+
+
+            <!-- Título da seção -->
+            <div class="text-center mb-5">
+
+                <p class="text-uppercase fw-bold">
+                    Conheça um pouco mais
+                </p>
+
+                <h2 class="display-5 fw-bold">
+                    Sobre Mim
+                </h2>
+
+            </div>
+
+
+            <div class="row align-items-center">
+
+
+                <!-- Imagem / Ilustração -->
+                <div class="col-lg-5 mb-4 mb-lg-0">
+
+                    <div class="about-placeholder">
+
+                        <i class="bi bi-code-slash"></i>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Texto -->
+                <div class="col-lg-7">
+
+                    <h3 class="mb-3">
+                        Tecnologia, aprendizado e criatividade
+                    </h3>
+
+                    <p>
+                        Sou estudante de Tecnologia da Informação e tenho
+                        grande interesse pelo desenvolvimento de software,
+                        programação e criação de aplicações web.
+                    </p>
+
+                    <p>
+                        Gosto de aprender colocando a mão na massa,
+                        desenvolvendo projetos próprios e transformando ideias
+                        em sistemas funcionais.
+                    </p>
+
+                    <p>
+                        Atualmente venho aprofundando meus conhecimentos
+                        principalmente em desenvolvimento web, backend,
+                        bancos de dados e arquitetura de aplicações.
+                    </p>
+
+                    <p>
+                        Para mim, tecnologia é uma ferramenta para aprender,
+                        criar e resolver problemas.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         PROJETOS
+    =========================================== -->
+
+    <section id="projetos" class="py-5 bg-light">
+
+        <div class="container py-5">
+
+
+            <!-- Título da seção -->
+            <div class="text-center mb-5">
+
+                <p class="text-uppercase fw-bold">
+                    O que venho construindo
+                </p>
+
+                <h2 class="display-5 fw-bold">
+                    Meus Projetos
+                </h2>
+
+                <p class="text-muted">
+                    Alguns projetos desenvolvidos durante minha jornada
+                    de aprendizado em tecnologia.
+                </p>
+
+            </div>
+
+
+            <!-- Cards -->
+            <div class="row g-4">
+
+
+                <!-- ==========================================
+                     NEXUSHUB
+                =========================================== -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 shadow-sm">
+
+                        <div class="card-body">
+
+                            <div class="project-icon mb-3">
+
+                                <i class="bi bi-grid-3x3-gap"></i>
+
+                            </div>
+
+                            <h3 class="h4">
+                                NexusHub
+                            </h3>
+
+                            <p>
+                                Plataforma pessoal de organização e
+                                produtividade desenvolvida para centralizar
+                                estudos, projetos, lazer, metas e outras
+                                informações pessoais.
+                            </p>
+
+                            <p class="small text-muted">
+                                HTML · CSS · JavaScript · C# · ASP.NET Core ·
+                                Entity Framework Core · MySQL
+                            </p>
+
+                            <a href="#" class="btn btn-outline-primary">
+                                Ver projeto
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ==========================================
+                     NEXUSPLACE
+                =========================================== -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 shadow-sm">
+
+                        <div class="card-body">
+
+                            <div class="project-icon mb-3">
+
+                                <i class="bi bi-building"></i>
+
+                            </div>
+
+                            <h3 class="h4">
+                                NexusPlace
+                            </h3>
+
+                            <p>
+                                Projeto desenvolvido em sala de aula como
+                                aplicação web, utilizando uma estrutura
+                                baseada em frontend, backend e banco de dados.
+                            </p>
+
+                            <p class="small text-muted">
+                                HTML · Bootstrap · PHP · MySQL
+                            </p>
+
+                            <a href="#" class="btn btn-outline-primary">
+                                Ver projeto
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- ==========================================
+                     WEB RETRO ARCADE
+                =========================================== -->
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card h-100 shadow-sm">
+
+                        <div class="card-body">
+
+                            <div class="project-icon mb-3">
+
+                                <i class="bi bi-controller"></i>
+
+                            </div>
+
+                            <h3 class="h4">
+                                Web Retro Arcade
+                            </h3>
+
+                            <p>
+                                Projeto web inspirado nos clássicos arcades,
+                                desenvolvido para explorar interatividade,
+                                lógica de jogos e recursos gráficos
+                                diretamente no navegador.
+                            </p>
+
+                            <p class="small text-muted">
+                                HTML · CSS · JavaScript · Canvas API
+                            </p>
+
+                            <a href="#" class="btn btn-outline-primary">
+                                Ver projeto
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         HABILIDADES
+    =========================================== -->
+
+    <section id="habilidades" class="py-5">
+
+        <div class="container py-5">
+
+
+            <!-- Título da seção -->
+            <div class="text-center mb-5">
+
+                <p class="text-uppercase fw-bold">
+                    Tecnologias e conhecimentos
+                </p>
+
+                <h2 class="display-5 fw-bold">
+                    Habilidades
+                </h2>
+
+            </div>
+
+
+            <div class="row g-4">
+
+
+                <!-- Front-end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card h-100 text-center shadow-sm">
+
+                        <div class="card-body">
+
+                            <i class="bi bi-window fs-1"></i>
+
+                            <h3 class="h5 mt-3">
+                                Front-end
+                            </h3>
+
+                            <p>
+                                HTML5<br>
+                                CSS3<br>
+                                JavaScript<br>
+                                Bootstrap
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Back-end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card h-100 text-center shadow-sm">
+
+                        <div class="card-body">
+
+                            <i class="bi bi-server fs-1"></i>
+
+                            <h3 class="h5 mt-3">
+                                Back-end
+                            </h3>
+
+                            <p>
+                                C#<br>
+                                ASP.NET Core<br>
+                                APIs REST
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Banco de Dados -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card h-100 text-center shadow-sm">
+
+                        <div class="card-body">
+
+                            <i class="bi bi-database fs-1"></i>
+
+                            <h3 class="h5 mt-3">
+                                Banco de Dados
+                            </h3>
+
+                            <p>
+                                MySQL<br>
+                                Entity Framework Core<br>
+                                Modelagem de dados
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Ferramentas -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="card h-100 text-center shadow-sm">
+
+                        <div class="card-body">
+
+                            <i class="bi bi-tools fs-1"></i>
+
+                            <h3 class="h5 mt-3">
+                                Ferramentas
+                            </h3>
+
+                            <p>
+                                Git<br>
+                                GitHub<br>
+                                Visual Studio Code<br>
+                                XAMPP
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         EXPERIÊNCIA
+    =========================================== -->
+
+    <section id="experiencia" class="py-5 bg-light">
+
+        <div class="container py-5">
+
+
+            <!-- Título da seção -->
+            <div class="text-center mb-5">
+
+                <p class="text-uppercase fw-bold">
+                    Minha trajetória
+                </p>
+
+                <h2 class="display-5 fw-bold">
+                    Experiência
+                </h2>
+
+            </div>
+
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-9">
+
+
+                    <!-- ==========================================
+                         EXPERIÊNCIA 1
+                    =========================================== -->
+
+                    <div class="card shadow-sm mb-4">
+
+                        <div class="card-body">
+
+                            <div class="d-flex justify-content-between
+                                        flex-wrap gap-2 mb-2">
+
+                                <h3 class="h4 mb-0">
+                                    Monitor Voluntário — Tech Sênior
+                                </h3>
+
+                                <span class="badge text-bg-primary">
+                                    2026
+                                </span>
+
+                            </div>
+
+                            <p class="text-muted">
+                                Porto Digital
+                            </p>
+
+                            <p>
+                                Participação como monitor voluntário em
+                                iniciativa voltada à inclusão digital de
+                                pessoas com 60 anos ou mais.
+                            </p>
+
+                            <p>
+                                A experiência envolve comunicação, ensino,
+                                suporte tecnológico e a capacidade de
+                                transformar conceitos digitais em explicações
+                                simples e acessíveis.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- ==========================================
+                         EXPERIÊNCIA 2
+                    =========================================== -->
+
+                    <div class="card shadow-sm">
+
+                        <div class="card-body">
+
+                            <h3 class="h4">
+                                Desenvolvimento de Projetos Pessoais
+                            </h3>
+
+                            <p class="text-muted">
+                                Desenvolvimento independente
+                            </p>
+
+                            <p>
+                                Desenvolvimento contínuo de aplicações e
+                                projetos próprios com o objetivo de aplicar
+                                conhecimentos de programação, banco de dados,
+                                desenvolvimento web e arquitetura de sistemas.
+                            </p>
+
+                            <p>
+                                Entre os projetos estão plataformas de
+                                produtividade, sistemas web, interfaces,
+                                aplicações experimentais e projetos voltados
+                                ao aprendizado de novas tecnologias.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         CONTATO
+    =========================================== -->
+
+    <section id="contato" class="py-5">
+
+        <div class="container py-5">
+
+
+            <!-- Título da seção -->
+            <div class="text-center mb-5">
+
+                <p class="text-uppercase fw-bold">
+                    Vamos conversar?
+                </p>
+
+                <h2 class="display-5 fw-bold">
+                    Entre em Contato
+                </h2>
+
+                <p class="text-muted">
+                    Estou aberto a oportunidades, projetos e novas
+                    experiências na área de tecnologia.
+                </p>
+
+            </div>
+
+
+            <div class="row justify-content-center">
+
+                <div class="col-lg-8">
+
+                    <div class="card shadow-sm">
+
+                        <div class="card-body p-4">
+
+                            <div class="row g-4 text-center">
+
+
+                                <!-- GitHub -->
+                                <div class="col-md-4">
+
+                                    <i class="bi bi-github fs-1"></i>
+
+                                    <h3 class="h5 mt-3">
+                                        GitHub
+                                    </h3>
+
+                                    <a href="https://github.com/guilhermeandrade2908-dot" class="text-decoration-none">
+                                        Meu GitHub
+                                    </a>
+
+                                </div>
+
+
+
+                                <!-- LinkedIn -->
+                                <div class="col-md-4">
+
+                                    <i class="bi bi-linkedin fs-1"></i>
+
+                                    <h3 class="h5 mt-3">
+                                        LinkedIn
+                                    </h3>
+
+                                    <a href="https://www.linkedin.com/in/guilherme-andrade-gomes-de-holanda-38046937a/?skipRedirect=true" class="text-decoration-none">
+                                        Meu LinkedIn
+                                    </a>
+
+                                </div>
+
+
+
+                                <!-- E-mail -->
+                                <div class="col-md-4">
+
+                                    <i class="bi bi-envelope fs-1"></i>
+
+                                    <h3 class="h5 mt-3">
+                                        E-mail
+                                    </h3>
+
+                                    <a
+                                        href="#"
+                                        class="text-decoration-none"
+                                    >
+                                        guilhermeandrade2908@gmail.com
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
          FOOTER
-    =============================== -->
-    <footer>
-        <!-- Informações de rodapé -->
+    =========================================== -->
+
+    <footer class="bg-dark text-white py-4">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+
+                <!-- Copyright -->
+                <div class="col-md-6 text-center text-md-start">
+
+                    <p class="mb-0">
+                        © 2026 Guilherme Andrade.
+                        Todos os direitos reservados.
+                    </p>
+
+                </div>
+
+
+                <!-- Voltar ao topo -->
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+
+                    <a
+                        href="#inicio"
+                        class="text-white text-decoration-none"
+                    >
+                        Voltar ao topo ↑
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </footer>
 
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- JS próprio -->
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <!-- JavaScript próprio -->
     <script src="js/script.js"></script>
 
 </body>
